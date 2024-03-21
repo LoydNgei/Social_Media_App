@@ -17,5 +17,5 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/', [DashboardController::class, 'index']);
 
-Route::get('/profile', [ProfileController::class, 'index']);
+Route::get('/feed', [ProfileController::class, 'index']);
 
