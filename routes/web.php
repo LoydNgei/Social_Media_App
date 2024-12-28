@@ -19,3 +19,7 @@ Route::get('/', [DashboardController::class, 'index']);
 
 Route::get('/feed', [ProfileController::class, 'index']);
 
+
+Route::get('/login', [UserController::class, 'login']);
+
+Route::get('/register', [UserController::class, 'register']);
