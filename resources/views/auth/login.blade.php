@@ -1,3 +1,3 @@
 <x-layout>
-    <h1>Login form</h1>
+    <h1 class="m-20">Login form</h1>
 </x-layout>
