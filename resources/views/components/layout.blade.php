@@ -16,7 +16,7 @@
 
 <body>
 
-    @include('layout.nav')
+    @include('components.nav')
 
     <div class="container py-4">
         @yield('content')
